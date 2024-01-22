@@ -1,0 +1,42 @@
+body {
+    background: #03071e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-el {
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.center-buttons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#ans-el{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #06d6a0;
+}
+
+button {
+    background-color: #dc2f02;
+    border: #dc2f02 solid 1px;
+    padding: 15px 10px;
+    border-radius: 30px;
+    flex: 1;
+    margin: 10px 10px; 
+    color: white;
+  }
+
+button:hover {
+    cursor: pointer;
+}
